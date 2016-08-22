@@ -1,11 +1,12 @@
+
 Script
 Pequeño programa que se escribe dentro de la estructura de HTML
 
 VBScript
 JavaScript
 
-<Script language="VBSCRIPT">
 
+<Script language="VBSCRIPT">
 
 	if Numero1>Numero2 then
           if Numero1>Numero3 then
@@ -17,7 +18,6 @@ JavaScript
           else msgbox("El valor mayor es " & Numero3 )
         End if
         End if
-
 
   	If Numero1>Numero2 and Numero1>Numero3 then
             msgbox("El valor mayor es " & Numero1 )
