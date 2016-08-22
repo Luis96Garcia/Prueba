@@ -1,0 +1,30 @@
+Script
+Pequeño programa que se escribe dentro de la estructura de HTML
+
+VBScript
+JavaScript
+
+<Script language="VBSCRIPT">
+
+
+	if Numero1>Numero2 then
+          if Numero1>Numero3 then
+            response.write("El valor mayor es " & Numero1)
+          else msgbox("El valor mayor es " & Numero3 )
+          End if
+        else if Numero2>Numero3 then
+          msgbox("El valor mayor es " & Numero2 )
+          else msgbox("El valor mayor es " & Numero3 )
+        End if
+        End if
+
+
+  	If Numero1>Numero2 and Numero1>Numero3 then
+            msgbox("El valor mayor es " & Numero1 )
+        ElseIf Numero1>Numero2 and Numero3>Numero1 then
+            msgbox("El valor mayor es " & Numero3 )
+        ElseIf Numero2>Numero3 then
+            msgbox("El valor mayor es " & Numero2 )
+        ElseIf Numero3>Numero2 then
+            msgbox("El valor mayor es " & Numero3 )
+        End If
